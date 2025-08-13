@@ -28,12 +28,13 @@ We trained two CNN models:
 ---
 
 ## 🎯 Data Augmentation Settings (for `model_dataaugmentation`)
-```python
 rotation_range = 15
 width_shift_range = 0.1
 height_shift_range = 0.1
 horizontal_flip = True
 zoom_range = 0.1
+
+---
 
 ## 📊 Results
 
@@ -62,17 +63,16 @@ Both models are saved for further use:
 ## 🚀 How to Run
 
 **1. Clone the repository:**
-```bash
 git clone https://github.com/Nakshu35/CIFAR10-CNN-AUGMENTATION.git
 cd CIFAR10-CNN-AUGMENTATION
 
 **2. Install dependencies:**
-```bash
 pip install tensorflow numpy matplotlib
 
 **3. Run the notebook:**
-```bash
 jupyter notebook CIFAR10_Classification.ipynb
+
+---
 
 ## 📌 Conclusion
 Data augmentation helps CNN models **generalise better** by training them with different versions of the same image.  
@@ -82,3 +82,5 @@ In this experiment:
 - **Test accuracy** improved by **+1.83%**
 
 This shows that even simple augmentation techniques can make a big difference in model performance.
+
+---
