@@ -28,11 +28,11 @@ We trained two CNN models:
 ---
 
 ## 🎯 Data Augmentation Settings (for `model_dataaugmentation`)
-rotation_range = 15
-width_shift_range = 0.1
-height_shift_range = 0.1
-horizontal_flip = True
-zoom_range = 0.1
+- rotation_range = 15
+- width_shift_range = 0.1
+- height_shift_range = 0.1
+- horizontal_flip = True
+- zoom_range = 0.1
 
 ---
 
